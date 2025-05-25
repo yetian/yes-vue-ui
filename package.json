@@ -1,0 +1,47 @@
+{
+  "name": "yes-vue-ui",
+  "version": "1.0.0",
+  "description": "yes-vue-ui is a modern, lightweight Vue 3 component library focused on security and high performance. Designed for demanding applications, it provides essential UI components that are safe by default, highly efficient, and easy to integrate—without unnecessary dependencies.",
+  "main": "./dist/yes-vue-ui.umd.cjs",
+  "module": "./dist/yes-vue-ui.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetian/yes-vue-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yetian/yes-vue-ui/issues"
+  },
+  "homepage": "https://github.com/yetian/yes-vue-ui#readme",
+  "dependencies": {
+    "vue": "^3.5.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vitest/coverage-v8": "^3.1.4",
+    "@vue/test-utils": "^2.4.6",
+    "@types/dompurify": "^3.0.5",
+    "jsdom": "^26.1.0",
+    "dompurify": "^3.2.6",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./directives": "./dist/directives.js"
+  }
+}
